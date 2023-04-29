@@ -7,110 +7,30 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-:root{
-    --color_text-primary: #AB29CA;
-    --color_text-secondary: #101E2C;
-    --color_text-tertiary: #485663;
-    --main_color-primary: #9A00BF;
-    --main_color_secondary: #F4D4FB;
-    --background-color: #FAFBFE;
-    --lowText_font_size: 16px;
-    --text_size_title: 40px;
-    --text_title_card: 24px;
-    --text_title_card2: 20px;
-    --text-paragraph: 16px;
-    --box_shadow-primary: 0px 6px 50px -20px rgba(0,0,0,0.2);
+.general_container{
+    height: 700px;
+    width: 1700px;
+    margin: 40px auto;
+    border: 1px solid #E6E6E6;
+    border-radius: 20px;
+    background: rgb(105, 105, 167);
 }
-header{
-    width: 100%;
-    height: 100px;
-    position: fixed;
+.header__menu{
+    width: 1625px;
+    margin: 25px auto;
+    padding: 25px 10px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background: transparent;
     z-index: 100;
 }
-.container__header {
-    max-width: 1200px;
-    height: 100%;
+.container__header{
     margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
 }
 .logo{
     display: flex;
     align-items: center;
     position: relative;
     z-index: 1;
-}
-.logo img{
-    width: 125px;
-    padding-top: 60px;
-    border-radius: 8px;
-}
-.menu{
-    display: flex;
-    align-items: center;
-}
-.menu nav{
-    margin: 0px 20px;
-}
-.menu nav ul{
-    display: flex;
-}
-.menu nav ul li{
-    list-style: none;
-    margin: 20px 16px;
-}
-.menu nav ul li a{
-    color: var(--color_text-secondary);
-    font-size: var(--lowText_font_size);
-    position: relative;
-}
-.menu nav ul li a:hover{
-    color: var(--color_text-primary);
-}
-.btn__quote{
-    display: block;
-    padding: 8px 40px;
-    border: 2px solid var(--main_color-primary);
-    border-radius: 8px;
-    font-weight: 500;
-    margin: 0px 20px;
-    transition: all 300ms;
-}
-.btn__quote:hover{
-    color: white;
-    background: var(--main_color-primary);
-}
-.menu .socialMedia{
-    margin: 0px 10px;
-}
-.menu .socialMedia a{
-    margin: 0px 10px;
-}
-.menu .socialMedia img{
-    width: 20px;
-}
-
-/*PORTADA DE INICIO*/
-
-.container__cover{
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background: var(--main_color_secondary);
-}
-.cover{
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
-}
-.text__cover{
-    width: 100%;
-    padding-right: 150px;
-}
-.text__cover h1{
-    font-size: var(--text_size_title);
 }
