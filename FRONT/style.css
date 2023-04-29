@@ -17,4 +17,14 @@ header{
     max-width: 1200px;
     height: 100%;
     margin: auto;
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.logo img{
+    width: 200px;
 }
